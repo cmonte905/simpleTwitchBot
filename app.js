@@ -10,7 +10,7 @@ var options = {
 	},
 	identity: {
 		username: "lenny_face_bot",
-		password: "oauth:na2hyb9rhoh6xhxon8wd8sr9sr2ys9"	
+		password: //apikey, found @http://twitchapps.com/tmi/
 	},
 	channels: ["stanseven"]
 
@@ -34,8 +34,5 @@ client.on('chat', function(channel, user, message, self){
 		client.action("stanseven", "there is !twitter and thats about it ( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°) ");
 	}	
 	
-	else if(message.includes('!parse')) { 
-		client.action("stanseven");
-	}
 
 });
